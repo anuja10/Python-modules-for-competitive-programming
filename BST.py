@@ -18,8 +18,7 @@ def insert(root, data):
         else:
             if root.right is None:
                 root.right = Node(data)
-            else:
-                insert(root.right, data)
+            
     return root
 
 
